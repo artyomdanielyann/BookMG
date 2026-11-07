@@ -1,0 +1,32 @@
+### 1. Create Book
+POST http://127.0.0.1:8080/api/books
+Content-Type: application/json
+
+{
+  "title": "",
+  "author": "",
+  "isbn": "",
+  "publishedYear": ,
+  "available":
+}
+
+### 2. Get All Books
+GET http://127.0.0.1:8080/api/books
+
+### 3. Get Book By ID
+GET http://127.0.0.1:8080/api/books/1
+
+### 4. Update Book
+PUT http://127.0.0.1:8080/api/books/1
+Content-Type: application/json
+
+{
+  "title": "",
+  "author": "",
+  "isbn": "",
+  "publishedYear": ,
+  "available":
+}
+
+### 5. Delete Book
+DELETE http://127.0.0.1:8080/api/books/1
